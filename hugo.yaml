@@ -1,0 +1,66 @@
+baseURL: "https://kartiksankhla.com/"
+locale: "en-us"
+title: "Kartik Sankhla"
+theme: "PaperMod"
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Kartik Sankhla"
+  description: "DFIR & Linux security researcher — digital forensics, memory & filesystem forensics, malware analysis."
+  author: "Kartik Sankhla"
+  defaultTheme: auto          # respects the visitor's light/dark preference
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: false
+
+  homeInfoParams:
+    Title: "Kartik Sankhla"
+    Content: >
+      DFIR & Linux security researcher. M.Tech Cyber Security at NFSU.
+      I work on digital forensics, memory & filesystem forensics, malware analysis,
+      and Linux internals. I write here about what I'm investigating and building.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/kartik0025"
+    - name: linkedin
+      url: "https://linkedin.com/in/kartik0025"
+    - name: email
+      url: "mailto:kartik0025@gmail.com"
+
+  assets:
+    disableHLJS: false
+    favicon: "/favicon.ico"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON          # required so the Search page works

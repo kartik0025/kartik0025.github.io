@@ -1,0 +1,13 @@
+/public/
+/resources/_gen/
+.hugo_build.lock
+.claude/
+Hugo Themes/
+Static-Site.md
+
+# local-only staging — drafts/source material, never publish to the public repo
+_archive/
+
+# macOS cruft
+.DS_Store
+**/.DS_Store
