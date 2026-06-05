@@ -6,6 +6,10 @@ tags: ["forensics", "dfir", "fat32", "filesystem", "digital-forensics"]
 summary: "A FAT32 USB image examined the way a court requires — no GUI shortcuts, every claim tied to raw bytes: recovering a deleted JPEG, and catching four files wearing the wrong extension."
 ShowToc: true
 TocOpen: false
+cover:
+  image: "covers/court-admissible-fat32.png"
+  alt: "A court-admissible FAT32 investigation, byte by byte"
+  hiddenInSingle: true
 ---
 
 There's a difference between *recovering a file* and producing *evidence a court will accept*, and the gap between the two is an entire discipline.

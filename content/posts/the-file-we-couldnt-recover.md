@@ -6,6 +6,10 @@ tags: ["dfir", "linux", "forensics", "filesystem"]
 summary: "A user created five files and deleted some. Recovering them from an ext3 image meant Trash artifacts, orphan inodes full of GNOME metadata — and proving why one file was gone for good."
 ShowToc: true
 TocOpen: false
+cover:
+  image: "covers/ext3-deleted-file.png"
+  alt: "The file we couldn't recover — an ext3 deleted-file investigation"
+  hiddenInSingle: true
 ---
 
 During a five-day filesystem-forensics bootcamp at NFSU, I was given a forensic image of a Linux pen drive and a one-line task: *do forensics on it.* No scenario, no hints, no list of what to look for — just the image. Everything below, I had to work out on my own.

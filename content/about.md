@@ -5,6 +5,7 @@ url: "/about/"
 summary: "About Kartik Sankhla"
 ShowReadingTime: false
 ShowBreadCrumbs: false
+comments: false
 ---
 
 I'm Kartik Sankhla — a digital-forensics and Linux security researcher, currently doing

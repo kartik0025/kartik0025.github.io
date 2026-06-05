@@ -4,6 +4,10 @@ date: 2026-05-29
 draft: false
 tags: ["meta"]
 summary: "A short note on what I'll be writing about here."
+cover:
+  image: "covers/hello.png"
+  alt: "Hello, and what this site is"
+  hiddenInSingle: true
 ---
 
 I'm setting this site up as a place to write about digital forensics and the

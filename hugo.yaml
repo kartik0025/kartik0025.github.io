@@ -13,9 +13,11 @@ minify:
 
 params:
   env: production
+  # goatcounter: "yourcode"   # register a free site at goatcounter.com, then put the subdomain here (e.g. "kartiksankhla") to turn on privacy-friendly analytics
   title: "Kartik Sankhla"
   description: "DFIR & Linux security researcher — digital forensics, memory & filesystem forensics, malware analysis."
   author: "Kartik Sankhla"
+  images: ["og-image.png"]    # default social-share image (Open Graph / Twitter) for pages without their own
   defaultTheme: auto          # respects the visitor's light/dark preference
   ShowReadingTime: true
   ShowShareButtons: false
@@ -24,6 +26,19 @@ params:
   ShowPostNavLinks: true
   ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: false
+
+  comments: true              # show giscus comments on single pages (disabled on /about/ via its front matter)
+  giscus:
+    repo: "kartik0025/kartik0025.github.io"
+    repoId: "R_kgDOSrKD5Q"
+    category: "Announcements"          # maintainer-only category: visitors can reply, but can't open new threads
+    categoryId: "DIC_kwDOSrKD5c4C-id1"
+    mapping: "pathname"
+    theme: "preferred_color_scheme"    # giscus follows each visitor's light/dark preference
+    inputPosition: "top"
+    reactionsEnabled: "1"
+    strict: "1"
+    lang: "en"
 
   homeInfoParams:
     Title: "Kartik Sankhla"
@@ -43,6 +58,7 @@ params:
   assets:
     disableHLJS: false
     favicon: "/favicon.ico"
+    theme_color: "#222b36"     # mobile browser-chrome color, matched to the favicon
 
 menu:
   main:

@@ -1,0 +1,14 @@
+{{- /* Project-level head additions (PaperMod calls this partial inside <head>). */ -}}
+
+{{- /* Modern, resolution-independent SVG favicon (used by Chrome/Firefox/Edge). */}}
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | absURL }}">
+
+{{- /* Web app manifest for Android / installable PWA. */}}
+<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
+
+{{- /* Privacy-friendly analytics (GoatCounter): no cookies, no personal data.
+       Loads only in production builds, and only once `goatcounter` is set in config. */ -}}
+{{- if and hugo.IsProduction site.Params.goatcounter }}
+<script data-goatcounter="https://{{ site.Params.goatcounter }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{{- end }}
