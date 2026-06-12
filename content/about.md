@@ -8,8 +8,9 @@ ShowBreadCrumbs: false
 comments: false
 ---
 
-I'm Kartik Sankhla — a digital-forensics and Linux security researcher, currently doing
-an M.Tech in Cyber Security at the National Forensic Sciences University (NFSU), Gandhinagar.
+I'm Kartik Sankhla — I work in digital forensics and incident response (DFIR), with a Linux-systems
+core, currently doing an M.Tech in Cyber Security at the National Forensic Sciences University (NFSU),
+Gandhinagar, on an ISEA research fellowship.
 
 My focus is **DFIR**: digital forensics and incident response. I work across memory forensics,
 filesystem forensics (ext4/XFS/Btrfs/FAT32), malware analysis and reverse engineering, Android

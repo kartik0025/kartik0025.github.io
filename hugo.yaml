@@ -15,7 +15,7 @@ params:
   env: production
   # goatcounter: "yourcode"   # register a free site at goatcounter.com, then put the subdomain here (e.g. "kartiksankhla") to turn on privacy-friendly analytics
   title: "Kartik Sankhla"
-  description: "DFIR & Linux security researcher — digital forensics, memory & filesystem forensics, malware analysis."
+  description: "DFIR & Linux security — digital forensics, incident response, memory & filesystem forensics, malware analysis."
   author: "Kartik Sankhla"
   images: ["og-image.png"]    # default social-share image (Open Graph / Twitter) for pages without their own
   defaultTheme: auto          # respects the visitor's light/dark preference
@@ -43,7 +43,7 @@ params:
   homeInfoParams:
     Title: "Kartik Sankhla"
     Content: >
-      DFIR & Linux security researcher. M.Tech Cyber Security at NFSU.
+      M.Tech Cyber Security at NFSU, on an ISEA research fellowship.
       I work on digital forensics, memory & filesystem forensics, malware analysis,
       and Linux internals. I write here about what I'm investigating and building.
 
