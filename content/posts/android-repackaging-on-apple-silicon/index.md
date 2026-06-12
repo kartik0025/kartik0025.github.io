@@ -1,6 +1,6 @@
 ---
 title: "The same app, now a contact-wiper: an APK repackaging attack on Apple Silicon"
-date: 2026-06-12T10:00:00+05:30
+date: 2026-06-12T08:00:00+05:30
 draft: false
 tags: ["android", "mobile-security", "reverse-engineering", "apktool", "apple-silicon"]
 summary: "Take a trusted Android app, inject a payload, and re-sign it so it still installs as legitimate — then do the whole thing on an M-series Mac instead of the prescribed Ubuntu VM, where four things break that no tutorial warns you about."
