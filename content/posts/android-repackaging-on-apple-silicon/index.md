@@ -7,8 +7,8 @@ summary: "Take a trusted Android app, inject a payload, and re-sign it so it sti
 ShowToc: true
 TocOpen: false
 cover:
-  image: "01-apktool-decode.png"
-  alt: "apktool decoding the target APK on macOS"
+  image: "covers/android-repackaging-on-apple-silicon.png"
+  alt: "The same app, now a contact-wiper — APK repackaging on Apple Silicon"
   hiddenInSingle: true
 ---
 
