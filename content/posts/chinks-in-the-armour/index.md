@@ -18,6 +18,8 @@ A certificate is a snapshot. It says that on the day the auditor visited, the co
 
 One of my Semester-II courses at NFSU — Cyber Security Audit and Compliance — asked for a case study on exactly this. I went looking for organisations that were *fully certified* at the moment they were *completely breached*, to see whether the failures had anything in common. They did. Three breaches, three different structural blind spots in how auditing works. I called them chinks in the armour: small, specific gaps in a suit of plate that looks complete from the outside.
 
+![A two-panel image: a knight in full plate armour with his sword raised — then the same knight with an arrow driven clean through the eye-slit of his visor. Total protection, one fatal gap.](knight.jpg)
+
 ## The illusion of compliance
 
 The pattern underneath all three deserves a name: **audit–security decoupling**. It's what happens when passing the audit becomes the goal instead of a proxy for the goal. Compliance turns performative — the controls exist on paper, the evidence satisfies the assessor, and none of it maps to whether an attacker can actually get in. The framework returns a *false negative*: it certifies security where none exists.
@@ -62,6 +64,8 @@ Code signing — the control that's supposed to *prove* an update is authentic �
 The audit failure is structural. SOC 2 Type II validates that an organisation's documented processes operated over a period of time. It does not — cannot — attest to the runtime integrity of a build server at 3 a.m. six months ago. And in 2020 no mainstream framework mandated reproducible builds or independent verification of build artefacts.
 
 This is the supply-chain paradox: **compliance is transitive; security is not.** When you onboard a vendor you collect their SOC 2 report and tick the box — and you genuinely have inherited their *compliance*. But their certificate says nothing about whether their pipeline was compromised last Tuesday. You take on their risk without taking on any assurance about it.
+
+![A "this is fine" meme: a man sits calmly at his desk holding an "I ❤ AUDITS" mug, saying "Compliant. Questions?" — while the whole room burns, the flames labelled Cloud Drift, Supply Chain Trust, and Jurisdiction Conflict.](this-is-fine.jpg)
 
 ## Chink 3 — the jurisdictional gap: Schrems II
 
