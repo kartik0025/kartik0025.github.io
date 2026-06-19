@@ -125,4 +125,6 @@ Each gap has a concrete countermeasure, and not one of them is "get another cert
 - **The frameworks are descriptive, trust-based, and point-in-time** — three properties that each guarantee a blind spot. Knowing *which* gap a given framework leaves open is more useful than holding the certificate.
 - **Compliance is a tool, not a goal.** It's a floor you clear on the way to security, never the ceiling you stop at.
 
+![A man acrobatically leaping clear of three charging bulls, each labelled with one of the three audit gaps — Temporal, Perimeter, and Jurisdictional.](dodging-bulls.jpg)
+
 *Written up from a case study for the Cyber Security Audit and Compliance course (M.Tech Cyber Security, Semester II, NFSU). Primary sources: CISA Advisory AA20-352A (SolarWinds Orion supply chain); *United States v. Paige Thompson* (Capital One); CJEU Case C-311/18 (*Schrems II*); GDPR Articles 32 & 46; the US CLOUD Act, 18 U.S.C. §2523; and the IT Act, 2000 (§§43A, 70B, 72A) with the CERT-In Directions of April 2022.*
